@@ -19,20 +19,36 @@ const featuredWork = [
     height: 2312,
   },
   {
+    title: "Night",
+    subtitle: "The city after dark",
+    href: "/portfolio/night",
+    src: "/images/night/01-oculus-reflections.jpg",
+    width: 2000,
+    height: 1415,
+  },
+  {
+    title: "Ballet",
+    subtitle: "Movement & drama",
+    href: "/portfolio/ballet",
+    src: "/images/ballet/05-ballerina-spin.jpg",
+    width: 2000,
+    height: 3134,
+  },
+  {
     title: "Portraits",
     subtitle: "Authentic & timeless",
-    href: "/services#portraits",
+    href: "/portfolio/portraits",
     src: "/images/featured/portraits.jpg",
     width: 2000,
     height: 3000,
   },
   {
-    title: "Architecture",
-    subtitle: "Form, light & structure",
-    href: "/portfolio/travel",
-    src: "/images/featured/architecture.jpg",
+    title: "Nature",
+    subtitle: "The quiet world",
+    href: "/portfolio/nature",
+    src: "/images/nature/01-eastern-bluebird.jpg",
     width: 2000,
-    height: 2106,
+    height: 1924,
   },
 ];
 
@@ -92,7 +108,7 @@ export default function Home() {
           </h2>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {featuredWork.map((item) => (
             <Link
               key={item.title}

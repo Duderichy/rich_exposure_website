@@ -26,6 +26,8 @@ const travelPhotos = [
   { id: 16, src: "/images/travel/14-dublin-bay-sunset.jpg", title: "Dublin Bay Sunset", location: "Dublin, Ireland", width: 2000, height: 1334 },
   { id: 17, src: "/images/travel/10-cypress-tunnel.jpg", title: "Cypress Tree Tunnel", location: "California", width: 2000, height: 1333 },
   { id: 18, src: "/images/travel/15-palace-fine-arts.jpg", title: "Palace of Fine Arts", location: "San Francisco", width: 2000, height: 1184 },
+  { id: 19, src: "/images/travel/19-hapenny-bridge-bw.jpg", title: "Ha'penny Bridge", location: "Dublin, Ireland", width: 2000, height: 1334 },
+  { id: 20, src: "/images/travel/20-gothic-door-ivy.jpg", title: "Gothic Doorway", location: "Ireland", width: 2000, height: 1334 },
 ];
 
 export default function TravelGallery() {

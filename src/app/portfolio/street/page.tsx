@@ -20,6 +20,14 @@ const streetPhotos = [
   { id: 10, src: "/images/street/10-gyro-stand-nyc.jpg", title: "Souvla King", location: "New York City", width: 2000, height: 2605 },
   { id: 11, src: "/images/street/08-man-light-pool.jpg", title: "Pool of Light", location: "Dublin, Ireland", width: 2000, height: 3000 },
   { id: 12, src: "/images/street/12-broadway-workers.jpg", title: "Broadway Morning", location: "New York City", width: 2000, height: 1414 },
+  { id: 13, src: "/images/street/13-57th-st-subway.jpg", title: "57th Street Platform", location: "New York City", width: 2000, height: 1404 },
+  { id: 14, src: "/images/street/14-snowy-steam-spring-st.jpg", title: "Spring Street Steam", location: "New York City", width: 2000, height: 1336 },
+  { id: 15, src: "/images/street/15-woman-reading-bench.jpg", title: "Lost in a Book", location: "New York City", width: 2000, height: 1426 },
+  { id: 16, src: "/images/street/16-subway-pillar-bw.jpg", title: "Divided", location: "New York City", width: 2000, height: 3000 },
+  { id: 17, src: "/images/street/17-nyc-crosswalk.jpg", title: "Crosswalk", location: "New York City", width: 2000, height: 1912 },
+  { id: 18, src: "/images/street/18-graffiti-tunnel.jpg", title: "Tunnel Vision", location: "New York City", width: 2000, height: 1334 },
+  { id: 19, src: "/images/street/19-umbrella-rain-bw.jpg", title: "Rainy Day", location: "Dublin, Ireland", width: 2000, height: 1334 },
+  { id: 20, src: "/images/street/20-subway-candid.jpg", title: "Underground Stories", location: "New York City", width: 2000, height: 2806 },
 ];
 
 export default function StreetGallery() {
